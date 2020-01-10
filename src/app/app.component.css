@@ -1,0 +1,28 @@
+.hello {
+    display: flex;
+    align-items: center; /*horizontal centering*/
+    justify-content: center; /*vertical centering*/
+    flex-direction: column;
+    height: 800px;
+    background-color: #fbf8e6;
+}
+
+h1 {
+    font-family: 'Sniglet';
+    font-size: 3rem;
+    color: #EA606F;
+}
+
+input {
+   width: 80%;
+    text-align: center;
+    border: none;
+    font-family: Helvetica;
+    font-size: 1.5rem;
+    box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
+}
+
+img {
+    height: 8rem;
+    margin-bottom: 2rem;
+}
