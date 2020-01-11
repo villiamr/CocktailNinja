@@ -1,0 +1,22 @@
+.cont {
+    background-color: #fbf8e6;
+}
+
+table {
+    margin-left:auto; 
+    margin-right:auto;
+    width: 80%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    border: none;
+}
+img {
+    border-radius: 50%;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  th {
+      border-bottom: none !important;
+      color: #EA606F;
+  }

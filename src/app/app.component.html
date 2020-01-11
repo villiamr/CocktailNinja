@@ -1,7 +1,9 @@
 <form>
-  <div class="hello">
+  <div class="cont">
       <img src="assets/cocktail.png" alt="logo">
       <h1>COCKTAILNINJA</h1>
-    <input #yourInput type="text" (keyup.enter)="getName(yourInput.value)" class="form-control" id="search" placeholder="Enter a cocktail">
+    <input #yourInput type="text" (keyup.enter)="getInput(yourInput.value); Cocktail.searchDrink()" class="form-control" id="search" placeholder="Enter a cocktail">
   </div>
     </form>
+    <app-cocktail #Cocktail></app-cocktail>
+    

@@ -1,0 +1,18 @@
+<div *ngIf="checker" class="cont">
+<table class="table">
+        <thead>
+            <tr>
+            <th scope="col">Image</th>
+            <th scope="col">Drink name</th>
+            <th scope="col">Category</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let key of objectKeys(cocktails)">
+            <tr *ngFor='let obj of cocktails[key]'>
+            <th scope="row"><img src="{{obj.strDrinkThumb}}" alt="img" height="80"></th>
+            <td>{{obj.strDrink}}</td>
+            <td>{{obj.strCategory}}</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
